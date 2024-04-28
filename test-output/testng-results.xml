@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T10:57:48 EDT" name="Default suite" finished-at="2024-04-25T10:58:32 EDT" duration-ms="43855">
+  <suite started-at="2024-04-27T18:05:05 EDT" name="Suite" finished-at="2024-04-27T18:05:47 EDT" duration-ms="41732">
     <groups>
+      <group name="Regression">
+        <method signature="TestRunWithTestNGLogin2.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin2@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin2"/>
+        <method signature="TestRunWithTestNGProduct2.getProduct()[pri:1, instance:com.Regression.TestRunWithTestNGProduct2@48f2bd5b]" name="getProduct" class="com.Regression.TestRunWithTestNGProduct2"/>
+      </group> <!-- Regression -->
+      <group name="Unit Test">
+        <method signature="TestRunWithTestNGLogin2.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin2@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin2"/>
+        <method signature="TestRunWithTestNGPayment2.getPayment()[pri:2, instance:com.Regression.TestRunWithTestNGPayment2@692f203f]" name="getPayment" class="com.Regression.TestRunWithTestNGPayment2"/>
+      </group> <!-- Unit Test -->
+      <group name="Smoke">
+        <method signature="TestRunWithTestNGLogin2.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin2@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin2"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-04-25T10:57:48 EDT" name="Default test" finished-at="2024-04-25T10:58:32 EDT" duration-ms="43855">
-      <class name="com.Regression.TestRunWithTestNG">
-        <test-method signature="getLogin()[pri:0, instance:com.Regression.TestRunWithTestNG@4d5d943d]" started-at="2024-04-25T10:57:48 EDT" name="getLogin" finished-at="2024-04-25T10:58:32 EDT" duration-ms="43745" status="PASS">
+    <test started-at="2024-04-27T18:05:05 EDT" name="Test" finished-at="2024-04-27T18:05:47 EDT" duration-ms="41732">
+      <class name="com.Regression.TestRunWithTestNGLogin2">
+        <test-method signature="getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin2@34a3d150]" started-at="2024-04-27T18:05:05 EDT" name="getLogin" description="Login Fintion" finished-at="2024-04-27T18:05:47 EDT" duration-ms="41610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogin -->
-      </class> <!-- com.Regression.TestRunWithTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Regression.TestRunWithTestNGLogin2 -->
+      <class name="com.Regression.TestRunWithTestNGProduct2">
+        <test-method signature="getProduct()[pri:1, instance:com.Regression.TestRunWithTestNGProduct2@48f2bd5b]" started-at="2024-04-27T18:05:47 EDT" name="getProduct" description="Product Function" finished-at="2024-04-27T18:05:47 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProduct -->
+      </class> <!-- com.Regression.TestRunWithTestNGProduct2 -->
+      <class name="com.Regression.TestRunWithTestNGPayment2">
+        <test-method signature="getPayment()[pri:2, instance:com.Regression.TestRunWithTestNGPayment2@692f203f]" started-at="2024-04-27T18:05:47 EDT" name="getPayment" description="Payment Function" finished-at="2024-04-27T18:05:47 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPayment -->
+      </class> <!-- com.Regression.TestRunWithTestNGPayment2 -->
+      <class name="com.Smoke.TestRunWithTestNGFunctionalTest2">
+        <test-method signature="getFunction()[pri:0, instance:com.Smoke.TestRunWithTestNGFunctionalTest2@77888435]" started-at="2024-04-27T18:05:47 EDT" name="getFunction" finished-at="2024-04-27T18:05:47 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFunction -->
+      </class> <!-- com.Smoke.TestRunWithTestNGFunctionalTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
